@@ -1,2 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 @import "tailwindcss";
 
+@theme {
+  --color-background: #f6f5f0;
+  --color-primary: #e9634a;
+  --color-secondary: #241d1a;
+  --DM-Sans: "DM Sans", sans-serif;
+}
+
+
+/* :root {
+  --background: #f6f5f0;
+  --secondary-color: #241d1a;
+  --primary-font: "DM Sans", sans-serif;
+} */
+
+
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-secondary);
+  font-family: var(--DM-Sans);
+}
