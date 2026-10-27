@@ -5,7 +5,10 @@
   --color-background: #f6f5f0;
   --color-primary: #e9634a;
   --color-secondary: #241d1a;
-  --DM-Sans: "DM Sans", sans-serif;
+  --font-dm-sans: "DM Sans", sans-serif;
+  --color-card: #fffdf9;
+  --color-card-border: #e7ddd3;
+  --color-muted: #8e8178;
 }
 
 
@@ -20,5 +23,5 @@
 body {
   background-color: var(--color-background);
   color: var(--color-secondary);
-  font-family: var(--DM-Sans);
+  font-family: var(--font-dm-sans);
 }
