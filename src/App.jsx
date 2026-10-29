@@ -4,15 +4,7 @@ function App() {
   
 
   return (
-    <div className="max-w-6xl my-0 mx-auto pl-6 pr-6 "> {/* 
-        .container {
-          max-width: 1160px;
-          margin: 0 auto;
-          padding: 0 24px;
-          box-sizing: border-box; /* Crucial to keep padding inside the width calculation 
-        } 
-          This is what this divs code is based on. This is how it's written in vanilla css
-      */ }
+    <div className="relative max-w-6xl min-h-screen mx-auto px-5 sm:px-6 "> 
     
     <header className="text-center">
       {/* Kind of got something going with using grid to center the logo but now the line at the bottom of the header is taking up the whole width of the browser. Need to figure out how to get to be centered and smaller like the design. Also I need to write all the JSX first for the app before I start styling  */}
