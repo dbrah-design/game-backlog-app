@@ -6,10 +6,11 @@ function App() {
   return (
     <div className="relative max-w-6xl min-h-screen mx-auto px-5 sm:px-6 "> 
     
-    <header className="text-center">
-      {/* Kind of got something going with using grid to center the logo but now the line at the bottom of the header is taking up the whole width of the browser. Need to figure out how to get to be centered and smaller like the design. Also I need to write all the JSX first for the app before I start styling  */}
-      <div>
-        <h1><span className="mr-2.5">B</span>backlogger</h1>
+    <header className="relative flex h-21 items-center justify-center border-b border-card-border">
+      
+      <div className="flex items-center gap-2.5">
+        <p className="grid place-items-center h-7.5 w-7.5 rounded-lg bg-primary text-sm text-white font-bold">B</p>
+        <p className="text-[20px] font-bold tracking-tight text-secondary">backlogger</p>
       </div>
     </header>
 
