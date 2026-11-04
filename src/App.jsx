@@ -4,14 +4,15 @@ function App() {
   
 
   return (
-    <div className="relative max-w-6xl min-h-screen mx-auto px-5 sm:px-6 "> 
+    <div className="max-w-6xl min-h-screen mx-auto px-5 sm:px-6 "> 
     
-    <header className="relative flex h-21 items-center justify-center border-b border-card-border">
+    <header className="flex h-21 items-center justify-center border-b border-card-border">
       
       <div className="flex items-center gap-2.5">
         <p className="grid place-items-center h-7.5 w-7.5 rounded-lg bg-primary text-sm text-white font-bold">B</p>
         <p className="text-[20px] font-bold tracking-tight text-secondary">backlogger</p>
       </div>
+      
     </header>
 
     <main > 
