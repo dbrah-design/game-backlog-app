@@ -16,12 +16,16 @@ function App() {
     </header>
 
     <main > 
-      <section className="hero"> 
 
-        <div className="personal-logo">
-          <div className="circle">
+      {/* Hero */}
+      <section className="flex flex-col items-center mt-18 mb-14.5"> 
+
+        <div className="mb-4 flex items-center gap-2">
+
+          <div className="relative grid h-1.5 w-1.5 place-items-center rounded-full bg-primary ring-4 ring-[#f3d0c5]">
           </div>
-          <p>your personal library</p>
+          <p className="text-[10px] font-bold uppercase tracking-[0.16em] text-muted">your personal library</p>
+          
         </div>
 
         <h1>Game backlogs,
