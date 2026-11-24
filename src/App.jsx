@@ -20,25 +20,35 @@ function App() {
       {/* Hero */}
       <section className="flex flex-col items-center mt-18 mb-14.5"> 
 
-        <div className="mb-4 flex items-center gap-2">
+        <div className=" mb-4 flex items-center gap-2">
 
           <div className="relative grid h-1.5 w-1.5 place-items-center rounded-full bg-primary ring-4 ring-[#f3d0c5]">
           </div>
           <p className="text-[10px] font-bold uppercase tracking-[0.16em] text-muted">your personal library</p>
+
+        </div>
+
+        <div>
           
         </div>
 
-        <h1>Game backlogs,
-          <span>finally in play.</span>
-        </h1>
-        <p>Keep every adventure in one place. Add what's next,
-        mark what's done, and make room for the next great game.</p>
+        <h1 className="text-[44px] sm:text-[74px] text-center font-bold leading-[.98] text-secondary ">
+            Game backlogs,
+            <span className="block text-primary">
+              finally in play.
+            </span>
+            {/* Could also use clamp function for responsive text sizes as well but don't understand it to well so going to stick to media queries for now. Might use it later on though once I get a better understanding of it */}
+          </h1>
         
-        <div className="add-form-wrapper">
-          <input id = "add-form-input" type="text" placeholder="Add a game to your backlog..." className="w-2xs"/>
-          <button className="p-4 bg-red-500 border-2">Add game ↗</button>
-        </div>
+        <p className="mt-5.5 mb-7.5 text-muted text-[14px] leading-[1.6] text-center">Keep every adventure in one place. Add what's next,
+          <br/> mark what's done, and make room for the next great game.
+       </p>
 
+        <div className="mt-7 flex w-full max-w-127.5 items-center gap-2 border border-[#cdbeb2] rounded-xl bg-card p-1.5">
+          <input id = "add-form-input" type="text" placeholder="Add a game to your backlog..." className=" min-w-0 px-2.5 py-2 bg-transparent flex-1"/>
+          <button className="shrink-0 rounded-lg bg-primary px-4 py-3 text-xs font-semibold text-white">Add game ↗</button>
+        </div>
+        
       </section>
 
       <section className="stats-row">
